@@ -28,11 +28,8 @@ public class MainActivity extends Activity {
         listaDeAlunos.setAdapter(new ArrayAdapter<>(this, android.R.layout
                 .simple_list_item_1, alunos));
 
-
     }
 }
-
-
 
 
 // teste 1       Toast.makeText(this, "Larissa", Toast.LENGTH_LONG).show();
